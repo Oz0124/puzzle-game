@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Puzzle Game Example</title>
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="/bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Puzzle Game Example</h1>
+            </div>
+            <div class="jumbotron">
+                <p>Puzzle Game說明:</p>
+                <p>此為拼圖遊戲，透過拖曳方式，將圖塊順序調整至正確。</p>
+                <ol>
+                    <li>
+                        請點擊開啟圖檔按鈕，選擇一張圖片，當成拼圖底圖
+                    </li>
+                    <li>
+                        可拖曳圖片項目，調整順序，順序調整完畢後，可點擊完成按鈕
+                    </li>
+                </ol>
+            </div>
+            
+            <div class="puzzle-image-container">
+                
+            </div> 
+            <div class="row button-row-block">
+                <div class="col-xs-12 col-sm-12">
+                    <button class="btn btn-primary btn-block finish-game">完成拼圖</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
+        <script src="/bower_components/modernizr/modernizr.js"></script>
+        <script src="/bower_components/Sortable/Sortable.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+    
+        <!-- build:js scripts/plugins.js -->
+        
+        <!-- endbuild -->
+    
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/modules.js"></script>
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>
