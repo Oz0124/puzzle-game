@@ -2,7 +2,7 @@
 
 This is a javascript Puzzle Game Sample.
 
-[Demo](url)
+[Demo](https://oz0124-demo.pancakeapps.com/puzzle-game)
 
 
 ## Prerequisites
